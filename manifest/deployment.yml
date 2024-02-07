@@ -14,7 +14,7 @@ spec:
         app: sample
     spec:
       containers:
-      - image: lekhaselliah/approllback-tagname
+      - image: lekhaselliah/approllback:tagname
         name: sample
         ports:
         - containerPort: 80
