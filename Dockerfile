@@ -1,3 +1,2 @@
-FROM nginx:alpine
-COPY htmlcode.html /usr/share/nginx/html/
-EXPOSE 80
+FROM httpd:2.4
+COPY . /usr/local/apache2/htdocs/
